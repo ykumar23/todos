@@ -1,0 +1,17 @@
+
+.app-root {
+    display: flex;
+    flex-direction: row;
+    border:1px solid red;
+    padding: 10px;
+
+    .emp-list {
+        width: 30%;
+        border:1px solid yellowgreen;
+    }
+
+    .emp-details {
+        flex-grow: 1;
+        border:1px solid purple;
+    }
+}

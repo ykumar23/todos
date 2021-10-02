@@ -1,0 +1,17 @@
+
+
+.emp-list-container {
+    padding: 20px;
+
+    .todo {
+        width: 100%;
+        border: 1px solid lightgray;
+        margin-top: 10px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 14px;
+        padding: 10px 0px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
